@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>読書記録アプリ</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="app">
+        <h1>読書記録アプリ</h1>
+        
+        <div id="book-form">
+            <input type="text" id="book-title" placeholder="書籍タイトル">
+            <input type="text" id="book-author" placeholder="著者">
+            <input type="date" id="book-date">
+            <button onclick="addBook()">追加</button>
+        </div>
+        
+        <div id="book-list">
+            <!-- 登録された書籍の一覧がここに表示される -->
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
